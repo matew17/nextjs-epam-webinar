@@ -1,0 +1,9 @@
+.menu {
+    display: flex;
+    flex-flow: column;
+}
+
+.menu > li {
+    list-style: none;
+    color: lightcoral;
+}
