@@ -52,9 +52,8 @@ export default function Home() {
 
             <section className={styles.imagesWrapper}>
                 {images.map((image, index) => (
-                    <div className={styles.image}>
+                    <div key={index} className={styles.image}>
                         <Image
-                            key={index}
                             src={image.url}
                             width={image.with}
                             height={image.height}
